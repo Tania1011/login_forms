@@ -22,7 +22,7 @@ This project demonstrates core backend development skills including user registr
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - Python 3.x
 - Django 4+
@@ -31,7 +31,7 @@ This project demonstrates core backend development skills including user registr
   
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 login_forms/
