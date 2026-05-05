@@ -340,19 +340,28 @@ You should see the home page with **Register** and **Login** buttons.
 - **Protected view**: `@login_required` decorator on the dashboard.  
 
 
---------------------------------------------------------
+---
 
 ## 14. Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home.png)
 
+---
+
+
 ### Login Page
 ![Login Page](screenshots/login.png)
+
+---
 
 ### Register Page  
 ![Register](screenshots/register.png)
 
+---
+
 ### Dashboard Page
 ![Dashboard](screenshots/dashboard.png)
+
+---
 
