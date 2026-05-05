@@ -1,0 +1,10 @@
+<!-- /templates/accounts/dashboard.html -->
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h1>Dashboard</h1>
+<p>Hello, {{ request.user.username }}! You are now logged in.</p>
+<p><a href="{% url 'home' %}">Back to Home</a></p>
+{% endblock %}
