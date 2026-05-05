@@ -1,12 +1,16 @@
 # Django Authentication System: Home, Register, Login, Dashboard
 
+---
+
+## 📌 Overview
+
 A clean and minimal Django authentication system built using Django’s built-in user authentication framework.
 This project demonstrates core backend development skills including user registration, login, session handling, and protected routes.
 
 
 ---
 
-## Features
+## 🚀 Features
 
 - Home page with **Register** and **Login** buttons
 - User registration using `UserCreationForm`
@@ -29,6 +33,7 @@ This project demonstrates core backend development skills including user registr
 
 ## Project Structure
 
+```bash
 login_forms/
 ├── config/                # Django project settings
 ├── accounts/             # Authentication app
@@ -43,12 +48,13 @@ login_forms/
 │       ├── register.html
 │       └── dashboard.html
 └── manage.py
+```
 
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-## 1. Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/Tania1011/login_forms.git
@@ -57,7 +63,7 @@ cd login_forms
 
 ---
 
-## 2. Create a Virtual Environment (Optional)
+### 2. Create a Virtual Environment (Optional)
 
 ```bash
 python -m venv venv
@@ -68,7 +74,7 @@ python -m venv venv
 
 ---
 
-## 3. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install django
@@ -76,7 +82,7 @@ pip install django
 
 ---
 
-## 4. Run Migrations
+### 4. Run Migrations
 
 ```bash
 python manage.py migrate
@@ -85,7 +91,7 @@ python manage.py migrate
 
 ---
 
-## 5. Create Superuser (Optional)
+### 5. Create Superuser (Optional)
 
 ```bash
 python manage.py createsuperuser
@@ -93,7 +99,7 @@ python manage.py createsuperuser
 
 ---
 
-## 6. Run the development server
+### 6. Run the development server
 
 ```bash
 python manage.py runserver
@@ -102,23 +108,15 @@ python manage.py runserver
 
 ---
 
-## 5. Open in browser
+### 7. Open in browser
 
 ```bash
- `http://127.0.0.1:8000/`
+ http://127.0.0.1:8000/
 ```
 
 ---
 
 
-## 6. Summary
-
-- **Project layout**: `myproject/` (project) + `main/` (app).  
-- **Templates**: Pure HTML, no CSS.  
-- **Authentication**: Uses Django’s built‑in forms (`UserCreationForm`, `AuthenticationForm`).  
-- **Protected view**: `@login_required` decorator on the dashboard.  
-
----
 
 ## 📸 Preview
 
